@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+#nav{position:relative;}
+#nav .nav_con .shouye{background:#90c31f;}
+#nav .nav_con .shouye:hover{background:#77b001;}
+#nav .banner_con{display:none;position:absolute;left:50%;margin-left:-595px;top:35px;z-index:999;}
+
+
+/*主要内容*/
+#main .local{height:55px;font-size:12px;color:#666;line-height:55px;overflow:hidden;}
+.local>span{display:inline-block;width:24px;height:15px;background:url(../images/tubiao.png) no-repeat left -92px;}
+.local>a{color:#666;}
+.local>a:hover{color:#ff6600;}
+
+
+.content{height:580px;}
+.content .pro_Exhibition{width:402px;height:580px;float:left;position:relative;}
+.content .pro_Exhibition ul{width:400px;height:400px;overflow:hidden;border:1px solid #ccc;}
+.content .pro_Exhibition ul li{width:100%;height:100%;}
+.content .pro_Exhibition ul span{display:block;width:160px;height:160px;background:url(../images/mask.png);position:absolute;display:none;cursor:move;}
+.content .pro_Exhibition .s_img{width:386px;height:70px;margin:20px 0 14px 0;padding-left:16px;position:relative;}
+.content .pro_Exhibition .s_img span{float:left;width:68px;height:68px;border:1px solid #ccc;margin:0 2px;cursor:pointer;}
+.content .pro_Exhibition .s_img span.active{border:1px solid #93c525;}
+.content .pro_Exhibition .s_img span img{width:100%;}
+.content .pro_Exhibition .s_img i{display:block;width:8px;height:15px;position:absolute;top:50%;margin-top:-8px;background:url(../images/tubiao.png) no-repeat;cursor:pointer;}
+.content .pro_Exhibition .s_img .i_prev{left:0;background-position:-180px -742px;}
+.content .pro_Exhibition .s_img .i_next{right:0;background-position:-189px -742px;}
+.content .pro_Exhibition .s_img .i_prev:hover{background-position:-171px -742px;}
+.content .pro_Exhibition .s_img .i_next:hover{background-position:-198px -742px;}
+.content .pro_Exhibition .share{width:400px;height:20px;}
+.content .pro_Exhibition .share .i1{float:left;width:11px;height:12px;background:url(../images/tubiao.png) no-repeat -89px -927px;margin:1px 3px 0 0;}
+.content .pro_Exhibition .share a{float:left;font-size:12px;color:#ccc;}
+.content .pro_Exhibition .share .common{width:20px;height:20px;text-indent:-9999px;background:url(../images/tubiao.png) no-repeat;margin:0 3px;}
+.content .pro_Exhibition .share .a1{background-position:-91px -379px;}
+.content .pro_Exhibition .share .a2{background-position:-112px -379px;}
+.content .pro_Exhibition .share .a3{background-position:-133px -379px;}
+.content .pro_Exhibition .share .i2{float:left;width:14px;height:13px;background:url(../images/tubiao.png) no-repeat -4px -958px;margin:1px 3px 0 30px;}
+.content .pro_Exhibition .Magnifier_box{width:400px;height:400px;overflow:hidden;border:1px solid #ccc;position:absolute;left:412px;top:0;display:none;z-index:500;}
+.content .pro_Exhibition .Magnifier_box img{width:1000px;position:absolute;left:0;top:0;}
+.content .detailed_con{float:left;width:621px;height:580px;margin-left:40px;font-size:12px;color:#666;}
+.content .detailed_con .detailed_con_top{width:621px;border-bottom:1px dotted #ccc;padding-bottom:10px;margin:5px 0 0 5px;}
+.content .detailed_con .detailed_con_top span{font-size:16px;line-height:20px;color:#333;}
+.content .detailed_con .detailed_con_top p{font-size:14px;line-height:20px;color: #ff6600;}
+.content .detailed_con .detailed_price{width:621px;height:28px;line-height:28px;margin-bottom:10px;}
+.content .detailed_con .detailed_price .kede_con_title{float:left;padding:0 5px;color: #666666;}
+.content .detailed_con .detailed_price .title_6{letter-spacing:6px;}
+.content .detailed_con .detailed_price .Price{float:left;color:#FF6600;font-size:20px;margin-left:-10px;margin-top:-2px;}
+.content .detailed_con .detailed_price .jt_box{float:left;width:20px;height:28px;position:relative;}
+.content .detailed_con .detailed_price .jt_box i{display:block;width:10px;height:5px;float:left;margin:10px 5px;background:url(../images/tubiao.png) no-repeat 0 -911px;}
+.content .detailed_con .detailed_price del{float:left;margin:0 30px;font-size:12px;color:#333;}
+.content .detailed_con .detailed_price .kede_price_save{float:left;font-size:12px;line-height:30px;}
+.content .Promotion{width:621px;height:120px;}
+.Promotion .Promotion_title{width:60px;font-size:12px;}
+.Promotion .Promotion_con{float:left;height:120px;margin-left:70px;margin-top:-20px;}
+.Promotion .Promotion_con p{height:28px;line-height:28px;}
+.Promotion .Promotion_con p b{float:left;height:18px;line-height:18px;font-weight:100;color:#fff;background-color:#FF6600;padding:0 5px;margin:5px 5px 0 0;font-size:12px;}
+.Promotion .Promotion_con p img{width:26px;float:left;margin-right:4px;}
+.Promotion .Promotion_con p span{color:#ff6600;}
+.Promotion .Promotion_con p i{color:#ff6600;font-size:12px;}
+.content .Stock{width:616px;height:24px;font-size:12px;color:#666;}
+.content .Stock .pro_number{float:left;}
+.content .Stock .state{float:left;margin:0 50px 0 12px;color:#333;}
+.content .line{width:621px;height:0;border-bottom:1px dotted #ccc;margin-bottom:16px;}
+.content .color_change{height:88px;}
+.content .color_change span{float:left;display:block;height:88px;}
+.content .color_change .color_box{float:left;height:88px;}
+.content .color_change .color_box a{float:left;border:1px solid #ccc;margin:0 5px;}
+.content .color_change .color_box a:hover{border-color:#90c31f;}
+.content .parameter{width:616px;height:65px;}
+.parameter span{float:left;width:70px;height:30px;line-height:30px;font-size:12px;color:#666;}
+.parameter input{outline:none;}
+.parameter .parameter_con{float:left;width:540px;height:60px;position:relative;}
+.parameter .parameter_con .common{width:540px;height:30px;}
+.parameter .parameter_con .common .right_eye{float:left;width:55px;height:24px;line-height:24px;text-align:center;background:#90c31f;color:#fff;font-weight:900;border-radius:2px;}
+.parameter .parameter_con .common .light_title{float:left;margin-left:10px;height:24px;line-height:24px;}
+.parameter .parameter_con .common .light_con{float:left;width:68px;height:22px;line-height:22px;background:#fff;border:1px solid #ccc;cursor:pointer;position:relative;}
+.parameter .parameter_con .common .light_con input{width:44px;float:left;text-align:center;border:0;height:20px;color:#666;font-family:"微软雅黑";font-size:12px;}
+.parameter .parameter_con .common .light_con ul{width:336px;height:180px;border:1px solid #ccc;background:#fff;position:absolute;left:-1px;top:22px;z-index:999;display:none;}
+.parameter .parameter_con .common .light_con ul li{ float:left;width:40px;height:28px;border:1px solid #ccc;text-align:center;line-height:30px;margin:3px;background:#fff;cursor:pointer;}
+.parameter .parameter_con .common .light_con ul li:hover{border-color:#ff6600;}
+.parameter .parameter_con .common .light_con i{float:right;width:22px;height:22px;background:url(../images/tubiao.png) no-repeat -124px -911px;}
+.parameter .parameter_con .common ._number{float:left;margin-left:10px;height:24px;line-height:22px;}
+.parameter .parameter_con .common .common_btn{float:left;width:20px;height:22px;line-height:22px;font-size:16px;text-align:center;background:#eee;cursor:pointer;border:1px solid #ccc;}
+.parameter .parameter_con .common .pro_number{width:30px;float:left;text-align:center;border:0;border:1px solid #ccc;height:20px;margin:0 3px;}
+.parameter .parameter_con .common .plus{float:left;width:20px;height:22px}
+.parameter .parameter_con .details_inventory{width:150px;height:20px;position:absolute;right:0;top:20px;line-height:20px;cursor:pointer;}
+.parameter .parameter_con .details_inventory b{float:left;}
+.parameter .parameter_con .details_inventory i{float:left;width:15px;height:15px;background:url(../images/tubiao.png) no-repeat -89px -911px;}
+.content .details_btn{width:616px;height:50px;}
+.content .details_btn .common{float:left;width:150px;height:32px;line-height:32px;border-radius:3px;cursor:pointer;font-size:16px;text-align:center;border:1px solid #ff6600;}
+.content .details_btn .details_btn1{color:#fff;margin-left:70px;background:#ff6600;}
+.content .details_btn .details_btn2{color:#ff6600;margin-left:10px;text-indent:20px;background:url(../images/tubiao.png) no-repeat 20px -39px;}
+.content .details_service{width:616px;font-size:12px;color:#333;}
+.details_service .service_title{padding-right:5px;color:#666;float:left;}
+.details_service .service_text{float:left;margin-right:15px;text-indent:3px;}
+.details_service .service_text i{display:block;float:left;width:20px;height:20px;background:url(../images/tubiao.png) no-repeat;}
+.details_service .service_text .i1{background-position:-63px -940px;}
+.details_service .service_text .i2{background-position:-84px -940px;}
+.details_service .service_text .i3{background-position:-105px -940px;}
+.details_service .service_text .i4{background-position:-126px -940px;}
+.details_emboitement_box{height:250px;border:1px solid #eeeeee;position:relative;margin-top:20px;font-size:12px;color:#666;margin-bottom:20px;}
+.details_emboitement_box h6{width:115px;height:20px;font-size:14px;color:#333;text-align:center;border-top:2px solid #90c31f;font-family:"黑体";line-height:20px;float:left;}
+.details_emboitement_box .emboitement_box{float:left;overflow:hidden;}
+.details_emboitement_box .emboitement_box .goodscom{float:left;width:130px;height:200px;padding:20px 15px 0 15px;}
+.details_emboitement_box .emboitement_box .goodscom p{color:#ff6600;}
+.details_emboitement_box .emboitement_box .goodscom p span{color:#999;text-decoration:line-through;}
+.details_emboitement_box .emboitement_box .emboitement_plus{float:left;width:30px;height:220px;}
+.details_emboitement_box .emboitement_box .emboitement_plus i{display:block;width:20px;height:20px;margin:100px 0 0 5px;background:url(../images/tubiao.png) no-repeat -148px -940px;}
+.details_emboitement_box .emboitement_box .proname i{float:left;width:16px;height:16px;float:left;margin-right:5px;background:url(../images/tubiao.png) no-repeat -208px -940px;}
+.details_emboitement_box .emboitement_box .details_settlement{float:right;width:229px;height:220px;border-left:1px solid #eee;}
+.details_emboitement_box .emboitement_box .details_settlement .details_equal{float:left;width:30px;height:220px;}
+.details_emboitement_box .emboitement_box .details_settlement .details_equal i{display:block;width:20px;height:20px;margin:100px 0 0 5px;background:url(../images/tubiao.png) no-repeat -168px -940px;}
+.details_emboitement_box .emboitement_box .details_settlement .details_mess{height:220px;position:relative;}
+.details_emboitement_box .emboitement_box .details_settlement .details_mess .details_change{position:absolute;left:50px;top:76px;}
+.details_emboitement_box .emboitement_box .details_settlement .details_mess .details_sale_btn{width:120px;height:30px;font-size:14px;color:#fff;background:#ff6600;text-align:center;line-height:30px;margin-top:5px;cursor:pointer;border-radius:3px;position:absolute;right:60px;top:110px;}
+
+.goodsmessage .goods_con_left{float:left;width:210px;}
+.goodsmessage .goods_con_left .pro_nav{width:210px;height:218px;border-top:2px solid #90c31f;margin-bottom:10px;}
+.goodsmessage .goods_con_left .pro_nav li{height:30px;padding-left:25px;line-height:30px;border-bottom:1px solid #D9D9D9;background:#f5f5f5;cursor:pointer;font-size:14px;color:#90c31f;}
+.goodsmessage .goods_con_left .pro_record{width:208px;border:1px solid #eee;border-top:0;}
+.goodsmessage .goods_con_left .pro_record h6{font-size:14px;width:188px;height:28px;padding:0 10px;border-top:2px solid #90c31f;line-height:28px;}
+.goodsmessage .goods_con_left .pro_record ul{border-top:1px solid #eee;padding:0 10px;}
+.goodsmessage .goods_con_left .pro_record ul li{border-bottom:1px dotted #eee;height:75px;padding-top:8px;}
+.goodsmessage .goods_con_left .pro_record ul li>a{display:block;float:left;}
+.goodsmessage .goods_con_left .pro_record ul li .right{float:left;width:118px;}
+.goodsmessage .goods_con_left .pro_record ul li .right a{display:block;font-size:12px;color:#666;}
+.goodsmessage .goods_con_left .pro_record ul li .right p{font-size:14px;color:#ff6600;}
+.goodsmessage .goods_con_left .pro_record ._bottom{width:128px;height:36px;padding:0;padding-left:80px;background:#f5f5f5;line-height:36px;border:0;border-bottom:2px solid #90c31f;background:url(../images/tubiao.png) no-repeat 0 -875px;}
+.goods_con_right{float:left;width:970px;margin-left:8px;}
+.goods_con_right .details_tab{width:970px;height:35px;border:solid #eee;border-width:0 1px;background:#f7f7f7;}
+.goods_con_right .details_tab>span{float:left;height:33px;border:solid #eee;border-width:1px 1px 1px 0;padding:0 25px;line-height:33px;font-size:14px;color:#333;background:#fff;}
+.goods_con_right .details_tab .tab1{height:32px;border-top:2px solid #ff6600;color:#ff6600;font-weight:900;position:relative;}
+.goods_con_right .details_tab .tab1 i{display:block;width:7px;height:4px;background:url(../images/tubiao.png) no-repeat -78px -935px;position:absolute;top:0;left:46px;}
+.goods_con_right .details_tab .details_shoppingbtn{float:right;width:150px;height:35px;font-size:14px;text-align:center;line-height:35px;background:#ff6600;color:#fff;cursor:pointer;display:none;}
+.goods_con_right .details_tab .details_shoppingbtn i{float:left;width:16px;height:16px;margin:9px 0 0 28px;background:url(../images/tubiao.png) no-repeat -2px -940px;}
+.goods_con_right .details_tab .details_tab_btn{float:right;width:115px;height:35px;font-size:14px;text-align:center;line-height:35px;background:#e8e8e8;color:#999;position:relative;}
+.goods_con_right .details_tab .details_tab_btn b{float:left;margin-left:10px;}
+.goods_con_right .details_tab .details_tab_btn i{float:left;}
+.goods_con_right .details_tab .details_tab_btn .phone{width:18px;height:23px;margin:6px 0 0 5px;
+    background:url(../images/tubiao.png) no-repeat -20px -963px;}
+.goods_con_right .details_tab .details_tab_btn .arrows{width:7px;height:4px;margin:15px 0 0 8px;background:url(../images/tubiao.png) no-repeat 0 -27px;}
+.goods_con_right .details_tab .details_tab_btn img{position:absolute;left:0;top:35px;width:115px;display:none;}
+.goods_con_right .details_tab .details_tab_btn p{position:absolute;left:0;top:150px;width:115px;font-size:12px;display:none;background:#fff;}
+.goods_con_right .details_tab .details_tab_btn:hover img{display:block;}
+.goods_con_right .details_tab .details_tab_btn:hover p{display:block;}
+.goods_con_right .pro_img_zs{width:100%;text-align:center;border:solid #eee;border-width:0 1px 1px 1px;}
+/*.goods_con_right .pro_img_zs img{display:inline-block;}*/
+.goods_con_right .complaints{width:100%;text-align:center;}
+/*.goods_con_right .complaints img{display:inline-block;}*/
+.goods_con_right .comment_total{width:100%;height:32px;text-indent:20px;font-size:14px;line-height:32px;color:#fff;background:#f60;border:1px solid #eee;}
+.goods_con_right .comment_total span{color:#fff;}
+.comment_title{width:100%;padding:10px 0;border:1px solid #eee;}
+.comment_title .sorce{float:left;width:224px;height:110px;border-right:1px dotted #dddddd;text-align:center;}
+.comment_title .sorce .p1{font-size:14px;line-height:24px;color:#666;}
+.comment_title .sorce .p2{font-size:40px;line-height:44px;font-weight:bold;color:#f60;}
+.comment_title .sorce .p3{font-size: 12px;line-height:12px;}
+.comment_title .sorce .p4{height:15px;width:134px;padding:0px;position:relative;right:0px;top:10px;color:#999;line-height:15px;font-size:12px;padding-left:90px;}
+.comment_title .sorce .p4 i{display:block;width:84px;height:15px;background:url(../images/tubiao.png) no-repeat -367px -135px;position:absolute;top:0;left:25px;}
+.comment_title .sorce_distribution{float:left;width:294px;height:110px;border-right:1px dotted #dddddd;position:relative;padding:10px 0 0 40px;}
+.comment_title .sorce_distribution .common i{float:left;width:84px;height:15px;background:url(../images/tubiao.png) no-repeat;}
+.comment_title .sorce_distribution .level1 i{background-position:-367px -55px;}
+.comment_title .sorce_distribution .level2 i{background-position:-367px -71px;}
+.comment_title .sorce_distribution .level3 i{background-position:-367px -87px;}
+.comment_title .sorce_distribution .level4 i{background-position:-367px -103px;}
+.comment_title .sorce_distribution .level5 i{background-position:-367px -119px;}
+.comment_title .sorce_distribution .common .bai{float:left;width:100px;height:5px;line-height:5px;border-radius:3px;background:#e2e2e2;margin:6px 10px 0 10px;}
+.comment_title .sorce_distribution .common .bai .wu{width:91px;height:5px;border-radius:3px;background:#6d9d03;}
+.comment_title .sorce_distribution .common .bai .si{width:5px;height:5px;border-radius:3px;background:#6d9d03;}
+.comment_title .sorce_distribution .common .bai .san{width:1px;height:5px;border-radius:3px;background:#6d9d03;}
+.comment_title .sorce_distribution .common .bai .er{width:1px;height:5px;border-radius:3px;background:#6d9d03;}
+.comment_title .sorce_distribution .common .bai .yi{width:1px;height:5px;border-radius:3px;background:#6d9d03;}
+.comment_title .sorce_distribution .common b{float:left;color:#333;font-size:12px;}
+.comment_title .fabiao{float:left;width:345px;height:110px;text-align:center;padding:0 30px;}
+.comment_title .fabiao .fabiao_left_btn{width:148px;height:33px;float:left;cursor:pointer;line-height:35px;margin: 10px;border:1px solid #f60;background-color:#f60;color:#fff;border-radius:3px;}
+.comment_title .fabiao .fabiao_left_btn i{width:23px;height:23px;background:url(../images/tubiao.png) no-repeat -205px -911px;float:left;margin:10px 5px 0 28px;}
+.comment_title .fabiao .fabiao_right_btn{width:148px;height:33px;float:left;cursor:pointer;line-height:35px;margin: 10px;border:1px solid #8fc31f;background-color:#fff;color:#8fc31f;border-radius:3px;}
+.comment_title .fabiao .fabiao_right_btn i{width:25px;height:23px;background:url(../images/tubiao.png) no-repeat -446px -911px;float:left;margin:10px 5px 0 28px;}
+.comment_title .fabiao p{font-size:12px;color:#333;}
+.comment_title .fabiao p a{color:#8fc31f;}

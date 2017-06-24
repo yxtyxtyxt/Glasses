@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*主要内容*/
+#sign_main{height:575px;background:#f0f0f0;}
+#sign_main .logo{height:142px;overflow:hidden;}
+#sign_main .logo a{float:left;display:block;margin:52px 20px 0 120px;}
+#sign_main .logo h2{float:left;font-size:18px;line-height:18px;color:#666;margin-top:84px;}
+#sign_main .register{height:34px;line-height:34px;text-align:right;padding-right:100px;width:1090px;font-size:12px;color:#666;}
+#sign_main .register a{color:#6c9d03;}
+#sign_main .register a:hover{color:#ff6600;}
+#sign_main .login_box{width:978px;height:348px;margin:0 auto;background:#fff;border:1px solid #ccc;padding-top:50px;}
+#sign_main .login_box .left_img{float:left;width:490px;height:298px;border-right:1px solid #ccc;margin-right:83px;}
+#sign_main .login_box .login_right{float:left;}
+input{outline:none;}
+input[type=text],input[type=password]{width:289px;height:28px;border:1px solid #ccc;padding-left:40px;font-family:"微软雅黑"}
+#sign_main .login_box .login_right form .btn{outline:none;width:331px;height:32px;background:#ff6600;border-radius:2px;color:#fff;border:0;
+font-family:"微软雅黑";font-size:14px;cursor:pointer;}
+#sign_main .login_box .login_right form .btn:hover{background:#ff8800;}
+#sign_main .login_box .login_right form .common{width:329px;height:30px;position:relative;margin-bottom:30px;}
+#sign_main .login_box .login_right form .common p{width:329px;height:30px;line-height:30px;position:absolute;left:0;top:30px;font-size:12px;color:#ff6600;display:none;}
+#sign_main .login_box .login_right form .common i{display:block;width:24px;height:24px;position:absolute;left:8px;top:4px;}
+#sign_main .login_box .login_right form .ipt_user i{background:url(../images/allbgs.png) no-repeat 0 -24px;}
+#sign_main .login_box .login_right form .ipt_pwd i{background:url(../images/allbgs.png) no-repeat 0 0;}
+#sign_main .login_box .login_right form .ipt_radio{width:331px;height:20px;}
+#sign_main .login_box .login_right form .ipt_radio input{float:left;}
+#sign_main .login_box .login_right form .ipt_radio span{float:left;}
+#sign_main .login_box .login_right form .ipt_radio a{float:right;font-size:12px;color:#6c9d03;}
+#sign_main .login_box .login_right form .ipt_radio a:hover{color:#ff6600;}
+#sign_main .login_box .login_right form .Ver_Code_box{height:30px;margin-bottom:5px;display:none;}
+#sign_main .login_box .login_right form .Ver_Code_box input{width:104px;height:28px;border:1px solid #ccc;float:left;padding:0;text-align:center;}
+#sign_main .login_box .login_right form .Ver_Code_box .Ver_Code{margin-right:10px;}
+#sign_main .login_box .login_right form .Ver_Code_box p{float:left;line-height:18px;font-size:12px;color:#ff6600;padding-left:10px;display:none;}
+#sign_main .login_box .login_right .p_tip{font-size:12px;color:#999;margin-top:10px;line-height:12px;}
+#sign_main .login_box .login_right .p_link a{float:left;text-indent:-9999px;display:block;width:32px;height:32px;background:#ccc url(../images/allbgs.png) no-repeat;margin:7px 20px 0 0;border-radius:16px;}
+#sign_main .login_box .login_right .p_link .qq{background-position:0 -74px;}
+#sign_main .login_box .login_right .p_link .weibo{background-position:-40px -74px;}
+#sign_main .login_box .login_right .p_link .zfb{background-position:-80px -74px;}
+
+
+
+
+#bottom{height:165px!important;padding-top:25px;background:#f0f0f0;}

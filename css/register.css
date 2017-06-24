@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*主要内容*/
+#register_main{height:575px;background:#f0f0f0;}
+#register_main .logo{height:142px;overflow:hidden;}
+#register_main .logo a{float:left;display:block;margin:52px 20px 0 120px;}
+#register_main .logo h2{float:left;font-size:18px;line-height:18px;color:#666;margin-top:84px;}
+#register_main .register{height:34px;line-height:34px;text-align:right;padding-right:100px;width:1090px;font-size:12px;color:#666;}
+#register_main .register a{color:#6c9d03;}
+#register_main .register a:hover{color:#ff6600;}
+.register_box{width:978px;height:368px;margin:0 auto;background:#fff;border:1px solid #ccc;padding-top:30px;}
+.register_box .login_left{float:left;width:410px;height:398px;}
+.register_box .login_left .form_left{float:left;width:170px;height:379px;margin-top:-12px;}
+.register_box .login_left .form_left p{font-size:14px;color:#333;text-align:right;line-height:57px;font-family:"微软雅黑";}
+.register_box .login_left .form_left p span{color:#ff6600;}
+.register_box .login_left form{float:left;width:240px;height:398px;}
+.register_box>a{float:right;width:490px;height:298px;border-left:1px solid #ccc;padding-left:10px;}
+input{outline:none;}
+input[type=text],input[type=password]{width:233px;height:30px;display:block;border:0;border:1px solid #ccc;font-family:"微软雅黑";padding-left:5px;}
+.register_box .login_left form .Ver_Code_box{height:32px;}
+.register_box .login_left form .Ver_Code_box input{width:106px;margin-right:10px;float:left;padding:0;}
+.register_box .login_left form .Ver_Code_box #Ver_Code{cursor:pointer;text-align:center;font-size:18px;}
+input[type=button]{display:block;width:240px;height:32px;font-size:16px;font-weight:900;font-family:"黑体";color:#fff;text-align:center;line-height:32px;border:0;background:#ff6600;cursor:pointer;border-radius:2px;margin-bottom:11px;}
+.register_box .login_left form .common{height:24px;position:relative;}
+.register_box .login_left form .common p{height:24px;font-size:12px;color:#ff6600;line-height:18px;position:absolute;left:0;top:0;display:none;}
+.register_box .login_left form .radio_box{font-size:12px;}
+.register_box .login_left form .radio_box input{float:left;}
+.register_box .login_left form .radio_box span{float:left;color:#666;margin:0 5px 0 2px;}
+.register_box .login_left form .radio_box a{float:left;color:#6c9d03;}
+.register_box .login_left form .radio_box a:hover{color:#ff6600;}
+
+/*底部*/
+#bottom{height:165px!important;padding-top:25px;background:#f0f0f0;}

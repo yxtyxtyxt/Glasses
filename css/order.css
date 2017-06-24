@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.order_main_title{width:998px;height:115px;padding-top:20px;margin:0 auto;position:relative;}
+.order_main_title h1{position:absolute;left:0;bottom:55px;}
+.order_main_title .logo_type{height:57px;line-height:57px;color:#666;font-size:18px;position:absolute;top:29px;left:205px;}
+.order_main_title .progress_bg{width:490px;height:28px;position:absolute;right:0px;top:39px;background:url(../images/progress_bar.png) no-repeat 0 -28px;}
+.order_main_title .common{font-size:12px;color:#666;position:absolute;top:65px;}
+.order_main_title .progress1{right:380px;}
+.order_main_title .progress2{right:210px;}
+.order_main_title .progress3{right:45px;}
+
+
+
+
+#order_con{width:988px;margin:0 auto;border:1px solid #ccc;padding:14px 10px 0 10px;color:#333;}
+.address_title{font-size:16px;line-height:16px;}
+.address_ul{height:125px;overflow:hidden;position:relative;font-size:12px;}
+.address_ul li{float:left;color:#333;width:215px;height:95px;margin:7px 7px 0 0;}
+.address_ul .address_default{width:215px;height:95px;line-height:16px;padding:10px;position:relative;}
+.address_ul .address_default .user_info{height:16px;}
+.address_ul .address_default .user_info .user_province{float:left;}
+.address_ul .address_default .user_info .user_name{float:left;margin:0 5px;}
+.address_ul .address_default .user_line{width:215px;height:0;border-top:1px dotted #ccc;margin:5px 0;}
+.address_ul .address_default .address_phone{color:#333;}
+.address_ul .address_default .address_phone div{line-height:16px;cursor:pointer;}
+.address_ul .address_default .address_bg{display:block;width:235px;height:115px;background:url(../images/tubiao.png) no-repeat -465px -55px;position:absolute;left:0;top:0;overflow:hidden;cursor:pointer;z-index:100;}
+.address_ul .address_default .address_mark{display:block;width:28px;height:28px;background:url(../images/tubiao.png) no-repeat -329px -911px;position:absolute;right:0;bottom:0;overflow:hidden;z-index:140;}
+.address_ul .address_default .modify_address{color:#f60;position:absolute;bottom:10px;left:10px;cursor:pointer;z-index:500;}
+.address_ul .address_default .default_mark{width:60px;height:20px;color:#333;background:#d1d1d1;position:absolute;top:0;right:0;opacity:0.6;filter:alpha(opacity=60);line-height:20px;text-align:center;cursor:pointer;z-index:150;}
+.address_ul .add_btn{float:left;line-height:113px;color:#f60;text-align:center;text-indent:45px;cursor:pointer;position:relative;}
+.address_ul .add_btn .plus_btn{display:block;width:19px;height:19px;background:url(../images/tubiao.png) no-repeat -261px -940px;position:absolute;top:48px;left:75px;overflow:hidden;}
+.address_ul .add_btn .address_bg{display:block;width:235px;height:115px;background:url(../images/tubiao.png) no-repeat -465px -172px;position:absolute;top:0;left:0;z-index:100;}
+.address_ul .address_bg:hover{background-position:-465px -55px;}
+
+.admin_address{height:20px;margin-top:10px;padding-bottom:10px;border-bottom:1px solid #ccc;}
+.admin_address a{float:right;font-size:12px;color:#90c31f;}
+
+.distribution_pay{width:970px;padding:10px 0;margin-left:10px;border-bottom:1px solid #ccc;color:#333;}
+.distribution_pay .distribution_pay_title{font-size:16px;}
+
+
+.distribution_pay .distribution_pay_title span{display:block;line-height:22px;float:left;font-size:12px;color:#f60;margin:0 -162px 0 130px;cursor:pointer;}
+.distribution_pay .pay_way{padding-left:30px;display:none;}
+.distribution_pay .pay_way .pay_way_title{margin:10px 0 5px 0;font-size:12px;}
+
+
+.distribution_pay .now_pay_way{display:block;}
+.distribution_pay .now_distribution_way{display:block;}
+
+
+.distribution_pay ul{padding-left:15px;}
+.distribution_pay ul li{height:20px;position:relative;font-size:12px;color:#333;}
+.distribution_pay ul li .explain{float:left;color:#999;}
+.distribution_pay ul .on i{display:block;width:16px;height:16px;float:left;background:url(../images/tubiao.png) no-repeat -191px -940px;overflow:hidden;}
+.distribution_pay ul li .pay_line_way{float:left;width:100px;margin:0 10px;}
+
+.distribution_pay ul .on_none i{display:block;width:16px;height:16px;float:left;background:url(../images/tubiao.png) no-repeat -208px -940px;overflow:hidden;}
+
+
+.distribution_pay .common{font-size:12px;color:#333;margin:10px 0 5px 0;padding-left:30px;}
+
+
+.distribution_way{padding-left:30px;display:none;}
+.distribution_way .distribution_way_title{margin:10px 0 5px 0;font-size:12px;}
+.distribution_way ul li .suyun{float:left;width:100px;margin:0 10px;}
+
+.save_info{width:180px;height:30px;font-size:14px;line-height:30px;text-align:center;background:#f60;border-radius:3px;margin:20px 0 0 30px;color:#fff;cursor:pointer;display:none;}
+
+.pro_list{width:970px;padding:10px 0;margin-left:10px;border-bottom:1px solid #ccc;}
+.pro_list .pro_list_title{font-size:16px;}
+.pro_list .pro_list_title a{color:#90c31f;float:right;font-size:12px;}
+.pro_list .pro_table{width:906px;margin:15px 0 0 30px;border:1px solid #ccc;}
+.pro_list .pro_table .pro_explain{height:30px;line-height:30px;background:#f9f9f9;}
+.pro_list .pro_table .pro_explain span{display:block;float:left;text-align:center;color:#333;font-size:12px;}
+.pro_list .pro_table .pro_explain .list1{width:390px;}
+.pro_list .pro_table .pro_explain .common{width:129px;}
+.pro_list .pro_table .pro_list_con{width:906px;border-top:1px solid #ccc;}
+.pro_list .pro_table .pro_list_con ul{width:906px;padding-left:20px;}
+.pro_list .pro_table .pro_list_con ul li{width:906px;height:60px;padding:10px 0;font-size:12px;color:#333;text-align:center;}
+.pro_list .pro_table .pro_list_con ul li img{float:left;}
+.pro_list .pro_table .pro_list_con ul li .proname{width:290px;float:left;line-height:60px;margin:0 10px;}
+.pro_list .pro_table .pro_list_con ul li .common{width:129px;float:left;line-height:60px;}
+.pro_list .pro_table .pro_list_con ul li .common span{color:#333;}
+
+
+
+.invoice{line-height:22px;margin:15px 0 0 40px;font-size:12px;}
+.invoice .invoice_title{width:500px;line-height:18px;color:#f60;cursor:pointer;}
+.invoice .invoice_title i{display:block;float:left;width:18px;height:18px;background:url(../images/tubiao.png) no-repeat -280px -940px;margin-right:5px;overflow:hidden;}
+.invoice .invoice_title i.on{background-position:-299px -940px;}
+.invoice .invoice_title b{color:#999;margin-left:10px;}
+.invoice .invoice_con{min-width:551px;_width:551px;float:left;color:#333;border:1px solid #f60;background:#fef7f2;margin-top:5px;padding:5px 10px;display:none;}
+.invoice .invoice_con>div{height:24px;margin:3px 0;}
+.invoice .invoice_con .con1 .invoice_price{float:left;}
+.invoice .invoice_con .con1 .invoice_price span{color:#333;}
+.invoice .invoice_con .con1 abbr{color:#f60;margin-left:25px;}
+.invoice .invoice_con .con2	label{float:left;}
+.invoice .invoice_con .con2 i{width:12px;height:12px;margin:7px 5px 0 5px;float:left;background:url(../images/tubiao.png) no-repeat;cursor:pointer;}
+.invoice .invoice_con .con2 .invoice_radio_on{background-position:-66px -988px;}
+.invoice .invoice_con .con2 .invoice_radio{background-position:-53px -988px;}
+
+.invoice .invoice_con .con3 .radio_1 label{float:left;}
+.invoice .invoice_con .con3 .radio_1 input{width:90px;height:20px;float:left;border:1px solid #ccc;font-family:"微软雅黑";}
+
+.invoice .invoice_con .con3 .radio_2{display:none;}
+.invoice .invoice_con .con3 .radio_2 label{float:left;}
+.invoice .invoice_con .con3 .radio_2 input{float:left;height:20px;border:1px solid #ccc;}
+.invoice .invoice_con .con3 .radio_2 .ipt1{width:190px;margin-right:3px;}
+.invoice .invoice_con .con3 .radio_2 .ipt2{width:80px;margin-right:5px;}
+
+.invoice .invoice_con .con4{position:relative;}
+.invoice .invoice_con .con4 label{float:left;}
+.invoice .invoice_con .con4 .pro_gg{float:left;width:90px;height:22px;text-align:center;border:1px solid #ccc;background:#fff;cursor:pointer;}
+.invoice .invoice_con .con4 .pro_gg i{display:block;float:right;width:22px;height:22px;background:url(../images/tubiao.png) no-repeat -124px -911px;}
+.invoice .invoice_con .con4 ul{width:90px;border:1px solid #ccc;border-top:0;position:absolute;top:24px;left:60px;display:none;}
+.invoice .invoice_con .con4 ul li{height:24px;background:#fff;text-align:center;cursor:pointer;}
+
+
+
+.integral{margin:15px 0 0 40px;line-height:22px;font-size:12px;}
+.integral .integral_title{width:500px;color:#f60;line-height:18px;cursor:pointer;}
+.integral .integral_title i{display:block;float:left;width:18px;height:18px;margin-right:5px;background:url(../images/tubiao.png) no-repeat -280px -940px;overflow:hidden;}
+.integral .integral_title i.on{background-position:-299px -940px;}
+.integral .integral_con{min-width:551px;_width:551px;float:left;color:#333;border:1px solid #f60;background:#fef7f2;padding:5px 10px;margin-top:5px;display:none;}
+.integral .integral_con .common{height:24px;margin:3px 0;}
+.integral .integral_con .con1 .integral_btn{width:70px;height:24px;margin-right:10px;float:right;color:#fff;background:#f60;text-align:center;border-radius:3px;cursor:pointer;}
+.integral .integral_con .con1 label{float:left;}
+.integral .integral_con .con1 input{float:left;width:90px;height:20px;border:1px solid #ccc;margin:0 5px;}
+.integral .integral_con .integral_line{height:0;border-bottom:1px dotted #ccc;margin-top:5px;}
+.integral .integral_con .con2 label{float:left;color:#333;}
+.integral .integral_con .con2 span{float:left;color:#f60;}
+.integral .integral_con .con2 a{float:right;color:#f60;}
+
+
+
+.edit_address{width:650px;height:450px;border:6px solid #ccc;background:#fff;color:#333;position:fixed;top:100px;left:350px;font-size:12px;display:none;z-index:10002;}
+.edit_address .address_title{height:40px;margin-bottom:50px;line-height:40px;font-size:14px;color:#666;background:#eaeaea;padding:0 20px;}
+.edit_address .address_title i{display:block;width:14px;height:14px;float:right;margin-top:12px;background:url(../images/tubiao.png) no-repeat -107px -912px;overflow:hidden;cursor:pointer;}
+.edit_address .consignee{height:24px;line-height:24px;margin:10px 0;}
+.edit_address .common_title{width:130px;text-align:right;float:left;margin-right:10px;font-size:12px;}
+.edit_address .common_title span{color:#f60;}
+.edit_address .consignee .consignee_con{float:left;}
+.edit_address input{height:20px;border:1px solid #ccc;line-height:20px;width:154px;font-family:"微软雅黑";outline:none;}
+.edit_address .tip_common{display:inline;color:#f60;display:none;}
+.edit_address .area_choice{height:24px;line-height:24px;margin:10px 0;}
+.edit_address .detailed_address textarea{display:inline-block;width:378px;height:68px;border:1px solid #ccc;font-family:"微软雅黑";resize:none;}
+.edit_address .mobilephone{height:24px;line-height:24px;margin:10px 0;}
+.edit_address .telephone{height:24px;line-height:24px;margin:10px 0;}
+.edit_address .check_default{float:left;margin-left:140px;line-height:22px;}
+.edit_address .check_default i{display:block;float:left;height:16px;width:16px;background:url(../images/tubiao.png) no-repeat -208px -940px;margin:3px 5px 3px 0;overflow:hidden;}
+.edit_address .check_default i.on{background-position:-191px -940px;}
+
+
+.edit_address .save_info_btn{width:100px;height:30px;line-height:30px;text-align:center;color:#fff;background:#f60;margin:10px 0 0 140px;border-radius:3px;cursor:pointer;}
+
+
+.clear{clear:both;}
+
+.carts_Settlement{width:970px;height:105px;margin:40px 0 0 10px;text-align:right;font-size:14px;line-height:24px;}
+.carts_Settlement>div{float:right;}
+.carts_Settlement>div span{margin-left:20px;font-size:14px;color:#666}
+.carts_Settlement>div i{color:#f60;font-size:14px;color:#f60}
+.carts_Settlement .final{width:970px;border-top:1px solid #ccc;padding-top:15px;margin-top:15px;line-height:40px;}
+.carts_Settlement .final .final_btn{float:right;width:190px;height:34px;line-height:34px;background:#f60;color:#fff;text-align:center;font-size:16px;border-radius:3px;cursor:pointer;}
+.carts_Settlement .final .final_con{float:right;}
+.carts_Settlement .final .final_con b{color:#f60;font-size:24px;margin-right:20px;font-weight:900;}
+.carts_Settlement .final .final_con b span{color:#f60;font-size:24px;font-weight:900;margin:0;}
+
+
+
+/*透明bg*/
+.opacity_bg{width:100%;height:100%;background:#000;opacity:0.3;position:fixed;top:0;left:0;z-index:10000;display:none;}
+
+
+
+
+.area_choice_right select{border:1px solid #999;background:#fff;margin:0 5px;}
+.area_choice_right select option{color:#333;}
+.buyNowMain2Con .info{line-height:20px;margin:0;}
+.info #show{color:#3399FF;}
+
+
+
+
+
+
+
+
+
+

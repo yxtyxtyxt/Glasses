@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>订单中心</title>
+	<link rel="shortcut icon" type="image/x-icon" href="http://pic.keede.com/ui/humanity/favicon.ico">
+	<link rel="stylesheet" href="../css/common.css" type="text/css"/>
+	<link rel="stylesheet" href="../css/order.css" type="text/css"/>
+</head>
+<body>
+	<!--top网站导航-->
+	<div id="top">
+		<div class="top_con main_con">
+			<!--收藏本网站-->
+			<span class="collect">收藏可得网</span>
+			<div class="user_login">
+				<p class="p_left">您好，欢迎光临可得眼镜网 !</p>
+				<p class="p_right">
+					<a href="SignIn.html">登录</a>
+					<a href="register.html">[免费注册]</a>
+				</p>
+			</div>
+			<div class="user_none">
+				<p class="wellcome"><span></span><i>您好，欢迎来可得！</i></p>
+				<p class="leave">[<span>退出</span>]</p>
+			</div>
+			<ul>
+				<li class="gift"><a href="#" target="_blank">我的礼券</a></li>
+				<li class="li_common myAccount" >
+					<a href="#" target="_blank">我的可得</a>
+					<span></span>
+					<div class="account">
+						<a href="#" target="_blank">我的订单</a>
+						<a href="#" target="_blank">我的收藏</a>
+						<a href="#" target="_blank">积分兑换</a>
+						<a href="#" target="_blank">我的验光单</a>
+					</div>
+				</li>
+				<li class="li_common helpCenter">
+					<a href="#" target="_blank">帮助中心</a>
+					<span></span>
+					<div class="help">
+						<a href="#" target="_blank">常见问题</a>
+						<a href="#" target="_blank">退货换货</a>
+						<a href="#" target="_blank">快递查询</a>
+						<a href="#" target="_blank">眼睛学堂</a>
+						<a href="#" target="_blank">礼券使用</a>
+						<a href="#" target="_blank">投诉建议</a>
+						<a href="#" target="_blank">网站地图</a>
+					</div>
+				</li>
+				<!--购物车-->
+				<li class="top_car"><a class="a_car" href="pro_car.html">购物车<span> 0</span>件</a></li>
+				<!--手机app-->
+				<li class="app_link">
+					<a href="#" target="_blank">手机版</a>
+					<div><img src="../images/appQC.jpg" alt="app二维码"></div>
+				</li>
+				<!--客服QQ链接-->
+				<li class="qq_link">
+					<span></span>
+					<a href="#">客服电话：4006-20-20-20（9:00-23:45）</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- 活动 -->
+	<div class="active11 main_con">
+		<a href="active11.html" target="blank"><img src="../images/activeImg.jpg" alt=""></a>
+	</div>
+
+
+
+	<div id="order_title" class="clearfix">
+		<div class="order_main_title">
+			<h1><a href="../index.html"><img src="../images/kede_logo.gif" alt=""></a></h1>
+			<div class="logo_type">确认订单</div>
+			<div class="progress_bg"></div>
+			<div class="progress1 common">我的购物车</div>
+			<div class="progress2 common">确认订单信息</div>
+			<div class="progress3 common">成功提交订单</div>
+		</div>
+	</div>
+
+
+	<div id="order_con">
+		<div class="address_title">选择收货地址</div>
+		<ul class="address_ul">
+			<li class="address_default">
+				<div class="user_info">
+					<div class="user_province">北京 北京市</div>
+					<div class="user_name">(<span>申朝</span> 收)</div>
+				</div>
+				<div class="user_line"></div>
+				<div class="address_phone">
+					<div>昌平区 沙阳路18号</div>
+					<div>18244681105</div>
+				</div>
+				<i class="address_bg"></i>
+				<i class="address_mark"></i>
+				<div class="modify_address">修改</div>
+				<div class="default_mark">默认地址</div>
+			</li>
+			<li class="add_btn">
+				<i class="plus_btn"></i>添加新地址<i class="address_bg"></i>				
+			</li>
+		</ul>
+		<div class="admin_address">
+			<a href="#">管理收货地址</a>
+		</div>
+		<div class="distribution_pay">
+			<div class="distribution_pay_title">支付及配送方式<span>[修改]</span></div>
+			<div class="now_pay_way common">在线支付</div>
+			<div class="pay_way">
+				<div class="pay_way_title">支付方式</div>
+				<ul class="info_change">
+					<li class="on">
+						<i></i>
+						<div class="pay_line_way">在线支付</div>
+						<div class="explain">更省运费</div>
+					</li>
+					<li class="on_none">
+						<i></i>
+						<div class="pay_line_way">货到付款</div>
+						<div class="explain">包裹到达后，您当场付给配送人员</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="now_distribution_way common">顺丰速运</div>
+			<div class="distribution_way">
+				<div class="distribution_way_title">配送物流</div>
+				<ul class="info_change">
+					<li class="on">
+						<i></i>
+						<div class="suyun">顺丰速运</div>
+						<div class="explain">0元/单 1-3天 -</div>
+					</li>
+					<li class="on_none">
+						<i></i>
+						<div class="suyun">申通快递</div>
+						<div class="explain">0元/单 1-3天 -</div>
+					</li>
+				</ul>
+			</div>
+			<div class="save_info">保存支付及配送方式</div>
+		</div>
+		<div class="pro_list clearfix">
+			<div class="pro_list_title">
+				商品清单
+				<a href="pro_car.html">[返回修改购物车]</a>
+			</div>
+			<div class="pro_table">
+				<div class="pro_explain">
+					<span class="list1">商品</span>
+					<span class="list2 common">光度</span>
+					<span class="list3 common">数量</span>
+					<span class="list4 common">单价(元)</span>
+					<span class="list5 common">小计(元)</span>
+				</div>
+				<div class="pro_list_con clearfix">
+					<ul class="clearfix">
+						<!-- <li>
+							<img src="../images/carImg/pro1.jpg" alt="">
+							<div class="proname">海俪恩萌生宠爱日抛彩色隐形眼镜30片装-动人可棕</div>
+							<div class="degree common">光度:-3.00</div>
+							<div class="nNum common">1</div>
+							<div class="unit_price common">￥<span>99.00</span></div>
+							<div class="total_price common">￥<span>99.00</span></div>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="invoice clearfix">
+			<div class="invoice_title">
+				<i></i>
+				发票信息
+				<b>[暂时不要]</b>
+			</div>
+			<div class="invoice_con">
+				<div class="con1">
+					<div class="invoice_price">
+						发票金额：
+						<span>594.00</span>
+					</div>
+					<abbr title="">(温馨提示：发票的开票金额不包括优惠券、积分支付部分)</abbr>
+				</div>
+				<div class="con2">
+					<label>发票抬头：</label>
+					<i class="invoice_radio_on"></i>
+					<label>个人</label>
+					<i class="invoice_radio"></i>
+					<label>公司</label>
+				</div>
+				<div class="con3">
+					<div class="radio_1">
+						<label>个人姓名：</label>
+						<input type="text" value="个人"/>
+					</div>
+					<div class="radio_2">
+						<label>公司名称：</label>
+						<input class="ipt1" type="text"/>
+						<label>纳税人编号：</label>
+						<input class="ipt2" type="text"/>
+						<label>(非必填项)</label>
+					</div>
+				</div>
+				<div class="con4">
+					<label>商品规格：</label>
+					<div class="pro_gg">
+						<i></i>
+						眼镜
+					</div>
+					<ul>
+						<li>眼镜</li>
+						<li>隐形眼镜</li>
+						<li>太阳眼镜</li>
+						<li>劳防镜</li>
+						<li>护眼用品</li>
+						<li>游泳眼镜</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="integral clearfix">
+			<div class="integral_title">
+				<i></i>
+				积分支付
+			</div>
+			<div class="integral_con clearfix">
+				<div class="con1 common">
+					<div class="integral_btn">确定</div>
+					<label>本次使用</label>
+					<input type="text"/ >
+					<label>积分支付</label>
+				</div>
+				<div class="integral_line"></div>
+				<div class="con2 common">
+					<label>您有</label>
+					<span>300</span>
+					<label>积分，本次可用</label>
+					<span>300</span>
+					<label>积分。</label>
+					<a href="#">[了解积分规则]</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="edit_address">
+			<div class="address_title">
+				<i></i>
+				添加、修改地址
+			</div>
+			<div class="consignee">
+				<div class="consignee_title common_title"><span>*</span>收货人姓名</div>
+				<div class="consignee_con">
+					<input type="text" name="consignee"/>
+					<div class="consignee_tip tip_common">请填写收货人姓名</div>
+				</div>
+			</div>
+			<div class="area_choice">
+				<div class="area_choice_left common_title">
+					<span>*</span>
+					所在地区
+				</div>
+				<div class="area_choice_right">
+					<select>
+						<option value="">中国大陆</option>
+					</select>
+					<select id="s_province" name="s_province"></select>
+				    <select id="s_city" name="s_city" ></select>
+				    <select id="s_county" name="s_county"></select>
+				    <script class="resources library" src="../js/area.js" type="text/javascript"></script>
+				    <script type="text/javascript">
+				    	_init_area();
+				    </script>
+				    <div id="show"></div>	
+				</div>
+			</div>
+			<div class="detailed_address">
+				<div class="detailed_address_title common_title">
+					<span>*</span>
+					详细地址
+				</div>
+				<div class="detailed_address_con">
+					<textarea name="" id="" placeholder="XXX区XXX路XX号XX室（街区门牌等详细地址）"></textarea>
+					<div class="detailed_address_tip tip_common">请填写详细地址</div>
+				</div>
+			</div>
+			<div class="mobilephone">
+				<div class="mobile_title common_title">
+					<span>*</span>
+					手机号码
+				</div>
+				<input type="text" name="phone"/>
+				<div class="mobile_tip tip_common">请填写手机号码</div>
+			</div>
+			<div class="telephone">
+				<div class="tele_title common_title">固定电话</div>
+				<input type="text" placeholder="区号-电话号码"/>
+			</div>
+			<div class="check_default">
+				<i></i>
+				设置为默认收获地址
+			</div>
+			<div class="clear"></div>
+			<div class="save_info_btn">保存并使用</div>
+		</div>
+		<div class="carts_Settlement">
+			<div>
+				<span>余额抵扣：</span>
+				<i>-￥0.00</i>
+			</div>
+			<div>
+				<span>积分抵扣：</span>
+				<i>-￥0.00</i>
+			</div>
+			<div>
+				<span>礼券优惠：</span>
+				<i>-￥0.00</i>
+			</div>
+			<div>
+				<span>促销优惠：</span>
+				<i>-￥0.00</i>
+			</div>
+			<div>
+				<span>运费：</span>
+				<i>-￥0.00</i>
+			</div>
+			<div class="pro_all_money">
+				<span>商品金额：</span>
+				<i>-￥<b>0</b>.00</i>
+			</div>
+			<div class="final">
+				<div class="final_btn">提交订单</div>
+				<div class="final_con">
+					应付总额：
+					<b>￥<span>205</span>.00</b>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="opacity_bg"></div>
+
+
+
+	<!-- bottom -->
+	<div class="bottom_con main_con">
+		<img src="http://pic.keede.com/UI/humanity/template/index/nfot-bg-03.gif" alt="">
+		<div class="bottom1">
+			<ul>
+				<h6>关于可得</h6>
+				<li><a href="#">公司简介</a></li>
+				<li><a href="#">诚聘英才</a></li>
+				<li><a href="#">媒体报道</a></li>
+			</ul>
+			<ul>
+				<h6>新手指南</h6>
+				<li><a href="#">热点问题</a></li>
+				<li><a href="#">会员优惠</a></li>
+				<li><a href="#">礼券号使用</a></li>
+			</ul>
+			<ul>
+				<h6>配镜指南</h6>
+				<li><a href="#">读懂验光单</a></li>
+				<li><a href="#">如何选购隐形眼镜</a></li>
+				<li><a href="#">眼睛学堂</a></li>
+			</ul>
+			<ul>
+				<h6>支付配送</h6>
+				<li><a href="#">款到发货</a></li>
+				<li><a href="#">货到付款</a></li>
+				<li><a href="#">支付方式</a></li>
+			</ul>
+			<ul>
+				<h6>售后服务</h6>
+				<li><a href="#">30天随心退换货服务</a></li>
+				<li><a href="#">如何办理退换货、退款</a></li>
+				<li><a href="#">投诉建议</a></li>
+			</ul>
+			<ul>
+				<h6>帮助</h6>
+				<li><a href="#">找回密码</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">快递查询</a></li>
+			</ul>
+		</div>
+		<div class="bottom2 main_con">
+			<a href="#">联系我们</a>
+			<span>|</span>
+			<a href="#">友情链接</a>
+			<span>|</span>
+			<a href="#">眼睛百科</a>
+			<span>|</span>
+			<a href="#">网站地图</a>
+			<span>|</span>
+			<a href="#">隐私安全</a>
+			<p>Copyright 2006-2016 可得眼镜 KEDE.com 版权所有 沪ICP备09062956号 全国服务热线：4006-20-20-20</p>
+		</div>
+		<div class="bottom3">
+			<a href="http://www.315online.com.cn/pingxuan/index.html" target="_blank"><img src="../images/Link1.jpg" alt=""></a>
+			<a href="https://search.szfw.org/cert/l/CX20130124002188002220" target="_blank"><img src="../images/Link2.jpg" alt=""></a>
+			<a href="http://www.zx110.org/" target="_blank"><img src="../images/Link3.jpg" alt=""></a>
+			<a href="https://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=dov71zgzilhvn4inh27pfqd6h0hvwad1qo" target="_blank"><img src="../images/Link4.jpg" alt=""></a>
+			<a href="/help-gywm8.html#yanjingxiehui" target="_blank"><img src="../images/Link5.jpg" alt=""></a>
+			<a href="/help-gywm8.html#shanghaimingpai" target="_blank" rel="nofollow"><img src="../images/Link6.jpg" alt=""></a>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+<script type="text/javascript" src="../js/usercookie.js"></script>
+<script type="text/javascript" src="../js/carcookie.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+<script type="text/javascript" src="../js/order.js"></script>
+</html>

@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+#car_main{width:100%;}
+.car_main_title{width:998px;height:80px;padding-top:20px;margin:0 auto;position:relative;}
+.car_main_title h1{position:absolute;left:0;bottom:20px;}
+.car_main_title .logo_type{height:57px;line-height:57px;color:#666;font-size:18px;position:absolute;top:29px;left:205px;}
+.car_main_title .progress_bg{width:490px;height:28px;position:absolute;right:0px;top:39px;background:url(../images/progress_bar.png) no-repeat}
+.car_main_title .common{font-size:12px;color:#666;position:absolute;top:65px;}
+.car_main_title .progress1{right:380px;}
+.car_main_title .progress2{right:210px;}
+.car_main_title .progress3{right:45px;}
+
+
+
+
+.car_table{width:998px;margin:0 auto;font-size:12px;color:#666;}
+.car_table .car_total{width:996px;height:30px;background:#f9f9f9;border:1px solid #ccc;}
+.car_table .car_total p{float:left;font-size:14px;color:#333;height:30px;line-height:30px;}
+.car_table .car_total .p1{width:380px;padding-left:216px;}
+.car_table .car_total .p2{width:93px;}
+.car_table .car_total .p3{width:110px;}
+.car_table .car_total .p4{width:112px;}
+.car_table .car_pro_con{width:996px;}
+.car_table .car_pro_con li{width:956px;padding:10px 20px;border:1px solid #ccc;}
+.car_table .car_pro_con li>a{float:left;}
+.car_table .car_pro_con li>p{float:left;width:362px;height:60px;line-height:58px;padding-left:10px;}
+.car_table .car_pro_con li>p a{color:#666;}
+.car_table .car_pro_con li .change_parameter{float:left;height:38px;width:108px;margin-top:9px;position:relative;border:1px dotted #fff;}
+.car_table .car_pro_con li .change_parameter span{display:block;position:absolute;left:10px;top:13px;color:#333;cursor:pointer;}
+.car_table .car_pro_con li .change_parameter b{display:block;width:35px;height:18px;background:#ff6600;line-height:18px;color:#fff;position:absolute;right:0;top:0;text-align:center;display:none;cursor:pointer;}
+.car_table .car_pro_con li .change_parameter i{display:block;width:10px;height:12px;background:url(../images/tubiao.png) no-repeat -41px -988px;position:absolute;right:9px;bottom:5px;display:none;cursor:pointer;}
+.car_table .car_pro_con li .change_num{float:left;width:106px;margin-top:19px;padding-left:6px;}
+.car_table .car_pro_con li .change_num .common{float:left;width:20px;height:20px;background:#eee;border:1px solid #ccc;line-height:20px;text-align:center;cursor:pointer;}
+.car_table .car_pro_con li .change_num input{float:left;outline:none;width:28px;height:18px;border:1px solid #ccc;text-align:center;margin:0 6px;}
+.car_table .car_pro_con li .unit_price{float:left;width:104px;position:relative;height:60px;line-height:60px;padding-left:16px;}
+.car_table .car_pro_con li .unit_price .youhui{width:72px;height:20px;background:#fff6ee;border:1px solid #ffb787;position:absolute;left:0;top:38px;line-height:20px;color:#ff6600;padding-left:8px;cursor:pointer;}
+.car_table .car_pro_con li .unit_price .youhui i{display:block;width:9px;height:5px;float:right;margin:8px 8px 0 0;background:url(../images/tubiao.png) no-repeat -20px -995px;}
+.car_table .car_pro_con li .unit_price .youhui .youhui_con{width:214px;line-height:20px;padding:6px;text-align:left;border:1px solid #ffb787;background:#fff;color:#999;position:absolute;top:20px;left:-1px;display:none;z-index:1000;}
+.car_table .car_pro_con li .unit_price .youhui .youhui_con i{float:left;width:16px;height:16px;background:url(../images/tubiao.png) no-repeat -190px -940px;margin:2px 5px 0 0;}
+.car_table .car_pro_con li .unit_price .youhui .youhui_con p{float:left;width:183px;}
+.car_table .car_pro_con li .total_price{float:left;width:98px;height:60px;line-height:60px;color:#ff6600;}
+.car_table .car_pro_con li .total_price span{color:#ff6600;}
+.car_table .car_pro_con li .operation{float:left;margin-top:10px;}
+.car_table .car_pro_con li .operation p{margin-top:4px;cursor:pointer;}
+.car_table .car_pro_con li .operation a{color:#666;}
+
+
+
+.car_table .continue_shop{width:977px;height:40px;color:#333;font-size:14px;line-height:40px; padding-left:21px;cursor:pointer;}
+.car_table .continue_shop i{display:block;float:left;width:10px;height:10px;background:url(../images/tubiao.png)no-repeat -15px -729px;margin:16px 10px 0 0;}
+.car_table .continue_shop a{color:#333;}
+.car_table .manjian{width:932px;border:1px solid #ccc;background:#fff6ee;height:37px;line-height:37px;position:relative;padding-left:64px;}
+.car_table .manjian i{display:block;width:34px;height:17px;line-height:17px;background:#ff6600;color:#fff;position:absolute;left:20px;top:10px;text-align:center;}
+.car_table .Coupon{width:494px;border:1px solid #ccc;margin-top:20px;color:#333;font-size:14px;}
+.car_table .Coupon>i{width:15px;height:15px;background:url(../images/tubiao.png)no-repeat -89px -911px;float:left;margin:13px 10px 0 20px;cursor:pointer;}
+.car_table .Coupon .use_coupon{float:left;width:84px;height:41px;line-height:41px;}
+.car_table .Coupon .coupon_con{width:240px;height:22px;float:left;margin:8px 15px 0 15px;border:1px solid #ccc;}
+.car_table .Coupon .coupon_con i{float:right;width:22px;height:22px;background:url(../images/tubiao.png) no-repeat -124px -911px;cursor:pointer;}
+.car_table .Coupon .coupon_con input{outline:none;width:217px;height:20px;float:left;text-align:center;border:0;margin-left:1px;}
+.car_table .Coupon .sure_btn{float:left;width:70px;height:24px;margin-top:8px;font-size:14px;background:#f60;color:#fff;line-height:24px;text-align:center;cursor:pointer;border-radius:3px;}
+.car_table .Settlement{width:990px;margin:0 auto;color:#666;text-align:right;font-size:14px;line-height:24px;}
+.car_table .Settlement span{font-size:14px;color:#ff6600;}
+.car_table .Settlement .pro_price_total{float:right;margin-top:40px;}
+.car_table .Settlement .pro_price_total .gj_jg{float:right;width:120px;font-size:16px;color:#ff6600;}
+.car_table .Settlement .pro_price_total .gj_name{float:right;width:90px;}
+.car_table .Settlement .pro_price_total .gj_num{float:right;}
+.car_table .Settlement .pro_youhui_price{float:right;}
+.car_table .Settlement .pro_youhui_price .gj_youhui{float:right;width:120px;color:#ff6600;}
+.car_table .Settlement .pro_youhui_price .gj_youhui_title{float:right;width:90px;}
+.car_table .Settlement .pro_coupon_price{float:right;}
+.car_table .Settlement .pro_coupon_price .gj_coupon{float:right;width:120px;color:#ff6600;}
+.car_table .Settlement .pro_coupon_price .gj_coupon_title{float:right;width:90px;}
+.car_table .Settlement .clear{float:right;clear:both;}
+.car_table .Settlement .Settlement_box{float:right;width:990px;border-top:1px solid #ccc;padding:15px 0 8px 0;margin-top:15px;line-height:40px;}
+.car_table .Settlement .Settlement_box .settlement_btn{float:right;width:190px;height:34px;line-height:34px;background:#f60;color:#fff;text-align:center;font-size:16px;border-radius:3px;cursor:pointer;}
+.car_table .Settlement .Settlement_box .settlement_left{float:right;line-height:40px;color:#666;margin-right:20px;}
+.car_table .Settlement .Settlement_box .settlement_left b{color:#ff6600;}
+.car_table .Settlement .Settlement_box .settlement_left span{font-weight:900;font-size:24px;line-height:34px;}
+
+   
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bottom{height:165px!important;padding-top:25px;background:#f0f0f0;}
